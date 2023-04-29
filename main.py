@@ -66,7 +66,7 @@ def deletar_contato():
     con.commit()
 
 
-    return make_response(jsonify(mensagem = 'Contato cadastrado com sucesso'), dados = contatos
+    return make_response(jsonify(mensagem = 'Contato deletado com sucesso'), dados = contatos
     )
 
    #delete from contatos where idcon='1';
